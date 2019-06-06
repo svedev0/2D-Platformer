@@ -1,6 +1,6 @@
-package Entity;
+package entity;
 
-import TileMap.*;
+import tilemap.*;
 
 import java.util.ArrayList;
 import javax.imageio.ImageIO;

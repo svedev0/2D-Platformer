@@ -1,4 +1,4 @@
-package TileMap;
+package tilemap;
 
 import java.awt.*;
 import java.awt.image.*;
@@ -6,7 +6,7 @@ import java.awt.image.*;
 import java.io.*;
 import javax.imageio.ImageIO;
 
-import Main.GamePanel;
+import main.GamePanel;
 
 public class TileMap {
 
@@ -136,13 +136,13 @@ public class TileMap {
 
 	public void setPosition(double x, double y) {
 
-	//	System.out.println(this.x);
-	//	System.out.println((x - this.x) * tween);
+		// System.out.println(this.x);
+		// System.out.println((x - this.x) * tween);
 
 		this.x += (x - this.x) * tween;
 		this.y += (y - this.y) * tween;
 
-	//	System.out.println(this.x + "\n==========");
+		// System.out.println(this.x + "\n==========");
 
 		fixBounds();
 

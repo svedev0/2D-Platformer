@@ -1,6 +1,6 @@
-package GameState;
+package gameState;
 
-import TileMap.Background;
+import tilemap.Background;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;

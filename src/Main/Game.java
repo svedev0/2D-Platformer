@@ -1,4 +1,4 @@
-package Main;
+package main;
 
 import java.awt.Dimension;
 import java.awt.Toolkit;
@@ -19,6 +19,9 @@ public class Game {
 		Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
 		window.setLocation(dim.width / 2 - window.getSize().width / 2, dim.height / 2 - window.getSize().height / 2);
 
-		// Sound.main(args);
+		/* Currently Out Of Order :(
+		 * 
+		 * Sound.main(args);
+		 */
 	}
 }

@@ -1,4 +1,4 @@
-package GameState;
+package gameState;
 
 public abstract class GameState {
 

@@ -1,8 +1,8 @@
-package GameState;
+package gameState;
 
-import Main.GamePanel;
-import TileMap.*;
-import Entity.*;
+import main.*;
+import tilemap.*;
+import entity.*;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;

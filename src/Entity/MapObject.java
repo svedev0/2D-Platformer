@@ -1,8 +1,7 @@
-package Entity;
+package entity;
 
-import Main.GamePanel;
-import TileMap.TileMap;
-import TileMap.Tile;
+import main.*;
+import tilemap.*;
 
 import java.awt.Rectangle;
 

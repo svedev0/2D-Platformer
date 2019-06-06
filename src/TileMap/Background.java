@@ -1,6 +1,6 @@
-package TileMap;
+package tilemap;
 
-import Main.GamePanel;
+import main.GamePanel;
 
 import java.awt.*;
 import java.awt.image.*;
